@@ -92,4 +92,3 @@ Additionally, what is the purpose of having two identical columns named full_vis
 3) Create three separete ables called product_details, order_details, warehouse_storing_details. 
 4) Creating a document and adding description or formulas for each columns. 
 
-![schema](schema.png)
