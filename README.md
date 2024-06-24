@@ -21,10 +21,13 @@ Project Goals
 1) Data Cleaning and Transformation:
 Clean and preprocess the extracted data to ensure accuracy and consistency.Transform the data into a structured format suitable for analysis.
 	
-> Remove unwanted or irrelavent observations
-> Ensure accurate datatypes - in this project we set up the data type for the columns. 
-> Address missing values
-> Fixing typos
+	Remove unwanted or irrelavent observations.
+
+	Ensure accurate datatypes - in this project we set up the data type for the columns. 
+
+	Address missing values
+
+	Fixing typos
 
 2) Data Analysis:
 Analyze the data to identify user behavior and product revenue. Evaluate the impact of various factors such as visit duration, page views, and 
@@ -36,35 +39,57 @@ Develop and execute a comprehensive QA process to validate the accuracy and cons
 
 ## Process
 Step 01 - Load the tables to the database in PGADMIN. 
+
 When loading the table, had to create a database and tables. 
 Then create columns for each table as per the given date files. Defined the data types for the columns based on the values. 
 Uploaded records to the tables. 
 
 Step 02 - Analyzing data. 
+
 There are 5 different tables with huge number of records. Out of five tables, three tables are about the product details, ordered quantitiy 
 and total number of orders. And other two tables are related to transactions and revenues. 
-	> all_session table with 32 columns and 15134 rows. No primary key. Mainly focus on the site/ pages visits by visitors, 
+
+	I. all_session table with 32 columns and 15134 rows. No primary key. Mainly focus on the site/ pages visits by visitors, 
 		transactions done and revenues and contains visitors' details. Lots of null values.
-	> analytics table with 14 columns and 4301122 rows. No primary key. Contains details about login details of visitors. Lots of duplicate rows. 
-	> products table with 7 columsn and 1092 rows.  Primary key - sku_id and contains details of the products and warehouse store. 
-	> sales_report table with 8 columns and 454 rows.  Primary key - product_sku and similar details as products table. It says the total ordered. 
-	> sales_by_sku table with 2 columsn and 462 rows. Primary key - product_skuand contains product id and number of total ordered. 
+  
+	II. analytics table with 14 columns and 4301122 rows. No primary key. Contains details about login details of visitors. 
+ 	Lots of duplicate rows. 
+ 
+	III. products table with 7 columsn and 1092 rows.  Primary key - sku_id and contains details of the products and warehouse store. 
+ 
+	IV.  sales_report table with 8 columns and 454 rows.  Primary key - product_sku and similar details as products table. 
+ 	It says the total ordered. 
+ 
+	V. sales_by_sku table with 2 columsn and 462 rows. Primary key - product_skuand contains product id and number of total ordered. 
+ 
 
 Step 03 - Data cleaning
-The most important part that need to execute before making a conclusion or querying the database. 
+
+The most important part that need to execute before making a conclusion or querying the database.
+
 	> Remove null values
+ 
 	> Remove duplicates
+ 
 	> Check the accuracy of the data types
+ 
 	> Ignore the unuseful records 
+ 
 	> Addressing missing values
+ 
 
 Step 04 - QA process
-Once completed with the data cleaning, we need to verify and validate the accuracy of the data. 
-	> Verification - Ensuring that the data is collected accurately and is consistent with defined standards.
-	> Validation  - Confirming that the data meets the requirements and is suitable for the intended analysis.
-	> Documentation - Keeping thorough documentation of data sources, transformations, and cleaning steps.
-	> Testing - Performing tests to check the reliability and consistency of the data.
 
+Once completed with the data cleaning, we need to verify and validate the accuracy of the data. 
+
+	> Verification - Ensuring that the data is collected accurately and is consistent with defined standards.
+ 
+	> Validation  - Confirming that the data meets the requirements and is suitable for the intended analysis.
+ 
+	> Documentation - Keeping thorough documentation of data sources, transformations, and cleaning steps.
+ 
+	> Testing - Performing tests to check the reliability and consistency of the data.
+ 
 In essence, data cleaning is a part of the QA process. QA ensures the overall quality while data cleaning focuses specifically on rectifying the data.
 
 ## Results
