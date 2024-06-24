@@ -20,10 +20,11 @@ revenue disciplines.
 Project Goals
 1) Data Cleaning and Transformation:
 Clean and preprocess the extracted data to ensure accuracy and consistency.Transform the data into a structured format suitable for analysis.
-	> Remove unwanted or irrelavent observations
-	> Ensure accurate datatypes - in this project we set up the data type for the columns. 
-	> Address missing values
-	> Fixing typos
+	
+> Remove unwanted or irrelavent observations
+> Ensure accurate datatypes - in this project we set up the data type for the columns. 
+> Address missing values
+> Fixing typos
 
 2) Data Analysis:
 Analyze the data to identify user behavior and product revenue. Evaluate the impact of various factors such as visit duration, page views, and 
