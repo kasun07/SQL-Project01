@@ -113,10 +113,3 @@ Answer:
 total_records,count_product_revenue,percentage_product_revenue
 
 11834,4,0.0338
-
-
-Question 5: 
-
-SQL Queries:
-
-Answer:
