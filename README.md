@@ -94,7 +94,9 @@ In essence, data cleaning is a part of the QA process. QA ensures the overall qu
 
 ## Results
 (fill in what you discovered this data could tell you and how you used the data to answer those questions)
-
+1) To see the total transaction revenue of each city and country
+2) Most visited and ordered product by visitors
+3) The year and month which has most product revenue and transaction revenue
 
 
 ## Challenges  
