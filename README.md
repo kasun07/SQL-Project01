@@ -44,7 +44,7 @@ When loading the table, had to create a database and tables.
 Then create columns for each table as per the given date files. Defined the data types for the columns based on the values. 
 Uploaded records to the tables. 
 
-Step 02 - Analyzing data. 
+Step 02 - Analyzing data. (They have captured data within between 2016 & 2017)
 
 There are 5 different tables with huge number of records. Out of five tables, three tables are about the product details, ordered quantitiy 
 and total number of orders. And other two tables are related to transactions and revenues. 
