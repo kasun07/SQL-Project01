@@ -89,7 +89,7 @@ There's no any pattern in product categories of products ordered from visitors i
 
 **Question 4: What is the top-selling product from each city/country? Can we find any pattern worthy of noting in the products sold?**
 
-Assume - I assumed top-selling product means product_quantity. In other hand, we can calculate the top-selling prodjuct from the total cost
+Assume - Top-selling product means product_quantity. In other hand, we can calculate the top-selling prodjuct from the total cost
 of the ordered quantity and unit price(product_quantity * unit price)
 
 SQL Queries:
@@ -120,6 +120,9 @@ United States,New York,2,GGOENEBJ079499,Nest® Learning Thermostat 3rd Gen-USA -
 United States,New York,2,GGOEGAAX0104,Google Men's 100% Cotton Short Sleeve Hero Tee White
 
 **Question 5: Can we summarize the impact of revenue generated from each city/country?**
+
+
+Assume - revenue is total_transaction_revenue not the product_revenue in all_sessions table
 
 SQL Queries:
 ```SQL
